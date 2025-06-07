@@ -3,7 +3,7 @@
 ## What it does
 This is a Powershell script that I wrote to simply shut down windows if it's been idle for over 3 hours. 
 
-> The necessity for this came after I bought a Focusrite Scarlett 2i2 (4th gen) which has trouble waking up after hibernation, so I figured, let's shut the computer down instead. 
+The necessity for this came after I bought a Focusrite Scarlett 2i2 (4th gen) which has trouble waking up after hibernation, so I figured, let's shut the computer down instead. 
 
 ## Setting it up
 - Clone the repo to your computer
@@ -21,6 +21,9 @@ This is a Powershell script that I wrote to simply shut down windows if it's bee
 - Select `Repeat Task every: ` and set it to 5 or 10 minutes, also choose `for a duration of:` and set it to `Indefinetely`
 - Hit OK
 
-Now the task will run and check if the computer's been idle for more than 3 hours, and shut down your computer. You may also want to look over your power settings, and set the sleep/hibernation of your computer to a value higher than 3 hours. I set mine to 240 minutes (4 hours) to be sure the computer doesen't sleep before it is shut down. 
+Now the task will run and check if the computer's been idle for more than 3 hours, and shut down your computer. 
+
+> **IMPORTANT** <br />
+> You may also want to look over your power settings, and set the sleep/hibernation of your computer to a value higher than 3 hours. I set mine to 240 minutes (4 hours) to be sure the computer doesen't sleep before it is shut down. 
 
 
